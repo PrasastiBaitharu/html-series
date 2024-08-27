@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="username">Enter Your name</label>
+            <input type="text" id="username">
+        </div>
+        <div>
+            <label for="password">Enter Password</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="email">Enter Your Email</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="mobile">Enter Your Mobile Number</label>
+            <input type="number" id="mobile" max="5" min="1" value="1">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female" id="gender">Female
+        </div>
+        <div>
+            <label for="qualification">Select Your Qualification</label>
+            <input type="checkbox" name="qualification" value="10th" id="qualification">10th
+            <input type="checkbox" name="qualification" value="12th" id="qualification">12th
+        </div>
+        <div>
+            <label for="country">Select Your Country</label>
+            <select name="country" id="country">
+                <option value="">USA</option>
+                <option value="">India</option>
+                <option value="">Australia</option>
+            </select>
+        </div>
+        <div>
+            <label for="country">Select Your Country</label>
+            <input type="text" id="country" list="countries">
+            <datalist id="countries">
+                <option value="USA"></option>
+                <option value="India"></option>
+                <option value="Japan"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="message">Enter Your Views</label>
+            <textarea name="message" id="message" rows="10" cols="50"></textarea>
+        </div>
+        <button>Login</button>
+        <button>Clear</button>
+    </form>
+</body>
+</html>
