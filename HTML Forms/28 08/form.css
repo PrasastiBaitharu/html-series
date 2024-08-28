@@ -1,0 +1,32 @@
+fieldset{
+    width: 500px;
+    margin: auto;
+    background-color: cornsilk;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+input , textarea , select{
+    margin: 20px 0;
+}
+button{
+    display: flex;
+    margin: auto;
+    padding: 10px 50px;
+    outline: 0;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-10px);
+}
+label{
+    font-weight: 600;
+}
+h1{
+    text-align: center;
+}
